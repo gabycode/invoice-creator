@@ -53,3 +53,51 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* BUTTONS */
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.option-btn {
+    background: #D1D4F4;
+    align-items: center;
+    padding: 12px 16px;
+    border-radius: 7px;
+    border: none;
+    color: #4A4E74;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.option-btn:hover,
+.option-btn:focus {
+    background: #c1c4e8
+}
+
+.invoice-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-btn {
+    background: #3A69D2;
+    padding: 9px 170px;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+.send-btn:hover,
+.send-btn:focus {
+    background: #244ca6;
+}
