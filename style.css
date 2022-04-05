@@ -101,3 +101,27 @@ body {
 .send-btn:focus {
     background: #244ca6;
 }
+
+/* CONTAINER */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFF1F2;
+}
+
+.money {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#note {
+    font-size: 12px;
+}
+
+#services-container {
+    padding: 10px;
+}
